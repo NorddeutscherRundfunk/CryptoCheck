@@ -67,6 +67,13 @@ Exit
 
 #region - Funcs
 Func _Encrypt($sFile)
+	If StringInStr($sFile, "/ErrorStdOut ") Then
+		$sFile = StringTrimLeft($sFile, 13)
+	EndIf
+	If StringInStr($sFile, @ScriptFullPath) Then
+		$sFile = StringTrimLeft($sFile, StringLen(@ScriptFullPath) + 1)
+	EndIf
+	ConsoleWrite("File: " & $sFile & @CRLF)
 	; CRC32:
 	$hTimer = TimerInit()
 
