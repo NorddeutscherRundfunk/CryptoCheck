@@ -1,8 +1,8 @@
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
-#AutoIt3Wrapper_Icon=..\Icons\key.ico
+#AutoIt3Wrapper_Icon=.\icons\key.ico
 #AutoIt3Wrapper_Res_Comment=Checkt Prüfsumme nach CR32, MD4, MD5 und SHA1.
 #AutoIt3Wrapper_Res_Description=Checkt Prüfsumme nach CR32, MD4, MD5 und SHA1.
-#AutoIt3Wrapper_Res_Fileversion=1.0.0.5
+#AutoIt3Wrapper_Res_Fileversion=1.0.0.6
 #AutoIt3Wrapper_Res_Fileversion_AutoIncrement=y
 #AutoIt3Wrapper_Res_LegalCopyright=Conrad Zelck
 #AutoIt3Wrapper_Res_SaveSource=y
