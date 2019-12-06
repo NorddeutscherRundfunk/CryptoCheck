@@ -14,7 +14,7 @@
 #Au3Stripper_Parameters=/mo
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 
-#include <ExtMsgBox.au3>
+#include <.\udf\ExtMsgBox.au3>
 #include <String.au3>
 #include <File.au3>
 #include <TrayCox.au3> ; source: https://github.com/SimpelMe/TrayCox
