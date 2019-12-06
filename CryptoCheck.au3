@@ -42,7 +42,7 @@ Global $iReturn
 Do
 
 	$sBackColor = _BackColor()
-	_ExtMsgBoxSet( -1, -1, $sBackColor)
+	_ExtMsgBoxSet( 2, -1, $sBackColor)
 	$iReturn = _ExtMsgBox(0, "CR32|MD4|MD5|SHA1|&ALL|Paste #",'CryptoCheck: ' & $sFileName & $sExtension, "Paste:      " & $sPaste & @CRLF & @CRLF & "CR32:" & @TAB & $sDataCR32 & @CRLF & "MD4:" & @TAB & $sDataMD4 & @CRLF & "MD5:" & @TAB & $sDataMD5 & @CRLF & "SHA1:     " & $sDataSHA1)
 	Switch $iReturn
 		Case -13
